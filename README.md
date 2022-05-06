@@ -6,3 +6,4 @@ These are our core values:
 * ADVOCATE an inspiring vision
 * COLLABORATE across the ecosystem
 * EXECUTE with agility
+* PERSONALIZE in a truly human way
