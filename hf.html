@@ -61,7 +61,9 @@ function render(timeDelta) {
     for (unitIdx in game.control) {
         unit = game.units[unitIdx];
         a = Math.atan2(game.mouse.y - unit.pos.y, game.mouse.x - unit.pos.x);
-        unit.facing += (a - unit.facing) / 10;
+        d = a - unit.facing;
+        dd = (d + Math.PI) % (Math.PI*2) - Math.PI;
+        unit.facing += (dd) / 10;
         unit.pos.x += Math.cos(unit.facing) * unit.speed;
         unit.pos.y += Math.sin(unit.facing) * unit.speed;
     }
