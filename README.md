@@ -7,3 +7,5 @@ These are our core values:
 * COLLABORATE across the ecosystem
 * EXECUTE with agility
 * PERSONALIZE in a truly human way
+
+For further information, visit https://myASG.accenture.com
